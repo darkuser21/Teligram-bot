@@ -1,8 +1,5 @@
 # Teligram-bot
 Telegram bot that is used to print data from the mango db database
-📜 README.md
-markdown
-Copy code
 # 📞 Telegram Bot with MongoDB Search
 
 This is a Telegram bot that allows users to search a MongoDB database using a mobile number.  
@@ -56,6 +53,7 @@ Send /start to see a welcome message.
 ```
 Send a mobile number (e.g., 9692307299) to search in the database.
 ```
+
 3️⃣ Response Examples
 If found:
 
@@ -63,17 +61,14 @@ If found:
 🔹 Name: John Doe
 🔹 Email: johndoe@example.com
 🔹 City: New York
-If not found:
 
-Copy code
+If not found:
 ❌ Data not found.
 
-###⚙️ Deployment (Optional)
+⚙️ Deployment (Optional)
 Deploy on a Linux Server (Auto-Restart)
 Run the bot using screen
 
-
-Copy code
 ```
 screen -S telegram-bot
 python bot.py
